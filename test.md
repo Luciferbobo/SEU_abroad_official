@@ -3,7 +3,7 @@
 We provide one demo scene S5 in /data/URBAN/. And the corresponding pretrained model is in /D4NeRF/logs/S5.
 
 ## Setup&Dependency
-The code is tested with Python == 3.8.8, Pytorch == 1.11.0 and CUDA 0= 11.3, the dependencies includes:
+The code is tested with Python == 3.8.8, Pytorch == 1.11.0 and CUDA == 11.3, the dependencies includes:
 
 * scikit-image
 * opencv
