@@ -13,19 +13,14 @@ The code is tested with Python == 3.8.8, Pytorch == 1.11.0 and CUDA 0= 11.3, the
 * configargparse
 
 ## Train
-
 ```
 python train.py --config configs/config_S5.txt 
 ```
-
 ## Evaluation
-
 ```
 python evaluation_URBAN.py --config configs/config_S5.txt 
 ```
-
 ## Novel view synthesis
-
 fixed time and view interpolation:
 ```
 python view_render.py --config configs/config_S5.txt --fixed_time --target_idx 15
