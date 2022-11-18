@@ -1,6 +1,6 @@
 # Detachable Novel Views Synthesis of Dynamic Scenes Using Distribution-Driven Neural Radiance Fields
 
-We provide one demo scene S5 in /data/URBAN/, and a pretrained model in /D4NeRF/logs/S5.
+We provide one demo scene S5 in /data/URBAN/. And the corresponding pretrained model is in /D4NeRF/logs/S5.
 
 ## Setup&Dependency
 The code is tested with Python == 3.8.8, Pytorch == 1.11.0 and CUDA 0= 11.3, the dependencies includes:
@@ -13,13 +13,16 @@ The code is tested with Python == 3.8.8, Pytorch == 1.11.0 and CUDA 0= 11.3, the
 * configargparse
 
 ## Train
+
 ```
 python train.py --config configs/config_S5.txt 
 ```
 
 ## Evaluation
 
+```
 python evaluation_URBAN.py --config configs/config_S5.txt 
+```
 
 ## Novel view synthesis
 
